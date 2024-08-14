@@ -26,8 +26,10 @@ WebDriver driver;
 	@Test
 	public void case1() {
 		
+		Utilities obj = new Utilities();
+		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.findElement(By.xpath("//span[text()=\"Search jobs here\"]")).click();
+		driver.findElement(By.xpath(obj.t1)).click();
 		driver.findElement(By.xpath("//input[@placeholder=\"Enter keyword / designation / companies\"]")).sendKeys("QA Testing");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//b[text()=\"QA testing\"]")).click();

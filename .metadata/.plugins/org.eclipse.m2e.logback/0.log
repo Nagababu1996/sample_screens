@@ -768,3 +768,19 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 2024-08-14 09:27:37,385 [Worker-25: Launching Data1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nagab\Documents\Eclipse\Tuto1\src\main\resources
 2024-08-14 09:27:37,388 [Worker-25: Launching Data1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-08-14 09:27:37,388 [Worker-25: Launching Data1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nagab\Documents\Eclipse\Tuto1\src\test\resources
+2024-08-14 09:30:00,981 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-08-14 09:30:00,981 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nagab\Documents\Eclipse\Tuto1\src\main\resources
+2024-08-14 09:30:00,986 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-08-14 09:30:00,986 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nagab\Documents\Eclipse\Tuto1\src\test\resources
+2024-08-14 09:51:33,859 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-08-14 09:51:33,859 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nagab\Documents\Eclipse\Tuto1\src\main\resources
+2024-08-14 09:51:33,862 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-08-14 09:51:33,862 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nagab\Documents\Eclipse\Tuto1\src\test\resources
+2024-08-14 09:53:09,768 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-08-14 09:53:09,768 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nagab\Documents\Eclipse\Tuto1\src\main\resources
+2024-08-14 09:53:09,771 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-08-14 09:53:09,771 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nagab\Documents\Eclipse\Tuto1\src\test\resources
+2024-08-14 09:53:30,343 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-08-14 09:53:30,343 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nagab\Documents\Eclipse\Tuto1\src\main\resources
+2024-08-14 09:53:30,346 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-08-14 09:53:30,347 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\nagab\Documents\Eclipse\Tuto1\src\test\resources
