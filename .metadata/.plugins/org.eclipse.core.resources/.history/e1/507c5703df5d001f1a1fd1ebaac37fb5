@@ -1,0 +1,16 @@
+
+
+import org.testng.annotations.Test;
+
+import Tuto1.Tuto1.baseclass;
+
+public class Dropdown extends baseclass{
+    
+    @Test
+    public void drop(){
+
+        driver.get("https://testautomationpractice.blogspot.com/");
+        driver.manage().windows().maxmize();
+
+    }
+}

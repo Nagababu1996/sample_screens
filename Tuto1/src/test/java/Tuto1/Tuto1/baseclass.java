@@ -2,17 +2,19 @@ package Tuto1.Tuto1;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 public class baseclass {
-WebDriver driver;
+	WebDriver driver;
 	@BeforeClass
 	public void browser() {
-		
+
 		driver = new ChromeDriver();
+
 	}
-	
+
 	@AfterClass
 	public void teardown() {
 		driver.close();
