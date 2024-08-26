@@ -1,0 +1,25 @@
+package Tuto1.Tuto1;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
+
+public class searchfields extends baseclass {
+
+	@Test
+	public void search() throws InterruptedException {
+		
+		driver.get("https://testautomationpractice.blogspot.com/");
+		driver.manage().window().maximize();
+		
+		driver.findElement(By.id("Wikipedia1_wikipedia-search-input")).sendKeys("demo");
+		driver.findElement(By.xpath("//input[@class=\"wikipedia-search-button\"]")).click();
+		
+		Thread.sleep(3000);
+		
+		WebElement links = driver.findElement(By.id("Wikipedia1_wikipedia-search-results"));
+		System.out.println(links.getText());
+		Thread.sleep(3000);
+		
+	}
+}

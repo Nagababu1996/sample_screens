@@ -1,0 +1,38 @@
+package Tuto1.Tuto1;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+
+public class baseclass extends Thread{
+	private WebDriver driver;
+	private String browserType;
+	
+	public baseclass(String string, String string2) {
+		// TODO Auto-generated constructor stub
+	}
+
+	@BeforeClass
+	public void browser(String browserType) {
+
+		if(browserType.equalsIgnoreCase("Chrome")) {
+			driver = new ChromeDriver();
+		}
+		else {
+			System.out.println("browser not supported");
+		}
+
+	}
+
+	@AfterClass
+	public void teardown() {
+		driver.close();
+	}
+	
+	public static void main(String[] args) {
+		Thread t1 = new baseclass("Chrome Driver","Chrome");
+		t1.start();
+	}
+}
